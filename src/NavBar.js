@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import {BrowserRouter as Router, Link, Route} from "react-router-dom"
 import "./NavBar.css"
 import ReactSearchBox from 'react-search-box'
 
