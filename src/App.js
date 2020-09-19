@@ -1,9 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
+import Navbar from "src/NavBar.js"
 import './App.css';
 
 function App() {
   return (
+    <>
+    <IndexNavbar />
+        <div className="wrapper">
+            <Navbars />
+               <div />
+          <Footer />
+      </>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
