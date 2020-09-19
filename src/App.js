@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 import HoverCard from './HoverCard.js';
 import NavBar from './NavBar.js';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <main className="App">
         <NavBar />
-          <HoverCards num = {11}/>
+
     </main>
   );
 }
