@@ -7,8 +7,22 @@
     padding: 10px;
     border-bottom: 2px solid var(--backgroundcolor);
     box-sizing: border-box;
-    vertical-align: middle;
+    vertical-align: center;
     height: var(--height);
+}
+.logo {
+    --backgroundcolor: white;
+    display: inline-block;
+    background-color:var(--backgroundcolor);
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    border-bottom: 2px solid var(--backgroundcolor);
+    box-sizing: border-box;
+    vertical-align: center;
+    height: var(--height);
+    font-size: 30px;
+
 }
 .link:hover {
     border-bottom: 2px solid black;

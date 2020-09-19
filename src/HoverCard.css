@@ -55,3 +55,14 @@
     /*transform: translateY(100%);*/
     transition: opacity var(--transition-time);
 }
+
+.hover-card-demo {
+    margin: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    width: auto;
+    height: auto;
+}

@@ -9,6 +9,7 @@
     "classnames": "^2.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-instantsearch-dom": "^6.7.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "react-router-dom": "^5.2.0",
+    "react-search-box": "^2.0.2",
     "reactstrap": "^8.6.0"
   }
 }
