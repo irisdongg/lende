@@ -16,7 +16,7 @@ import {
   Col
 } from "reactstrap";
 
-class Navbars extends React.Component {
+class NavBar extends React.Component {
   render() {
     return (
       <Navbar bg="light" expand="lg">
@@ -37,4 +37,4 @@ class Navbars extends React.Component {
   }
 }
 
-export default Navbars;
+export default NavBar;
