@@ -1,0 +1,17 @@
+.link {
+    --backgroundcolor: white;
+    display: inline-block;
+    background-color:var(--backgroundcolor);
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    padding: 10px;
+    border-bottom: 2px solid var(--backgroundcolor);
+    box-sizing: border-box;
+    vertical-align: middle;
+    height: var(--height);
+}
+.link:hover {
+    border-bottom: 2px solid black;
+    color: black;
+    transition: all 0.3s ease-in-out 0s;
+}
