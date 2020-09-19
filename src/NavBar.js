@@ -1,7 +1,6 @@
 import React from "react"
-import {BrowserRouter as Router, Link, Route} from "react-router-dom"
+import {Link} from "react-router-dom"
 import "./NavBar.css"
-import ReactSearchBox from 'react-search-box'
 
 function Navbar() {
 
@@ -40,15 +39,10 @@ function Navbar() {
                         {items.name}
                     </Link>
                 )}
-                <ReactSearchBox
-                    placeholder="Search..."
-                    data={data}
-                    className = 'search'
-                />
         </div>
     );
 }
 
 
 
-export default Navbar
+export default Navbar;

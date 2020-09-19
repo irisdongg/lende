@@ -1,9 +1,9 @@
 .link {
-    --backgroundcolor: white;
+    --backgroundcolor: transparent;
     display: inline-block;
     background-color:var(--backgroundcolor);
     text-decoration: none;
-    color: rgb(59, 59, 59);
+    color: white;
     padding: 10px;
     border-bottom: 2px solid var(--backgroundcolor);
     box-sizing: border-box;
@@ -11,21 +11,20 @@
     height: var(--height);
 }
 .logo {
-    --backgroundcolor: white;
+    --backgroundcolor: transparent;
     display: inline-block;
     background-color:var(--backgroundcolor);
     text-decoration: none;
-    color: blue;
+    color: white;
     padding: 10px;
     border-bottom: 2px solid var(--backgroundcolor);
     box-sizing: border-box;
     vertical-align: center;
     height: var(--height);
-    font-size: 30px;
+    font-size: 30px !important;
 
 }
 .link:hover {
-    border-bottom: 2px solid black;
-    color: black;
+    border-bottom: 2px solid white;
     transition: all 0.3s ease-in-out 0s;
 }
