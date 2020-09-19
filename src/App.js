@@ -6,12 +6,7 @@ import './App.css';
 function App() {
   return (
     <>
-    <IndexNavbar />
-        <div className="wrapper">
-            <Navbars />
-               <div />
-          <Footer />
-      </>
+    <Navbar />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
