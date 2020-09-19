@@ -1,0 +1,84 @@
+.page-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    max-height: 999px;
+    padding: 0;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden; }
+.page-header .page-header-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+.signup-page .page-header {
+    max-height: fit-content; }
+.page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 880px; }
+.page-header .content-center.brand {
+    width: 47%; }
+.page-header footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+.page-header .container {
+    height: 100%;
+    z-index: 1; }
+.page-header .category,
+.page-header .description {
+    color: rgba(255, 255, 255, 0.8); }
+.text-dark {
+    color: #2bffc6 !important; }
+.App-logo {
+    display: inline;
+    height: 40vmin;
+    pointer-events: none;
+    float:right;
+    margin-bottom: 1rem !important;
+}
+.text-left {
+    text-align: left !important; }
+
+.info {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 100px 40px 30px;
+    float: left;
+    width: 33.33%;}
+.info .icon {
+    color: #344675; }
+.info .icon > i {
+    font-size: 2.0625rem; }
+.info .info-title {
+    margin: 1.75rem 0 0.875rem; }
+.info p {
+    color: rgba(222, 222, 222, 0.8);
+    line-height: 24px; }
+
+.icon_color1{
+    color: aqua;
+}
+
+.icon_color2{
+    color: darkmagenta;
+}
+
+.icon_color3{
+    color: yellowgreen;
+}
+
+.justify-content-center {
+    justify-content: center !important; }
