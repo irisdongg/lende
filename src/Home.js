@@ -27,17 +27,17 @@ class Home extends React.Component {
                     <div>
                         <div className="page-header">
                             <div className="content-center">
-                                <h1 className="text-center">Do more. Meet more. Live more. Lende.</h1>
+                                <h1 className="text-center"> Do more. Meet more. Live more. Lende.</h1>
                             </div>
                         </div>
                         <Container className="page-middle">
-                            <Row className="justify-content-center">
+                            <Row>
                                 <Col lg="12">
                                     <h1 className="text-center">Enhance your life with Lende</h1>
-                                    <Row className="grid-row justify-content-center">
-                                        <Col lg="3">
+                                    <Row xs="3">
+                                        <Col lg="3" className="enhance1">
                                             <div className="info">
-                                                <h4 className="info-title icon_color1 text-center">Do More</h4>
+                                                <h4 className="info-title icon_color1">Do More</h4>
                                                 <hr className="horizontal-line"/>
                                                 <p className="text-white">
                                                     With easy access to equipment at affordable prices, the
@@ -48,7 +48,7 @@ class Home extends React.Component {
                                         </Col>
                                         <Col lg="3">
                                             <div className="info">
-                                                <h4 className="info-title icon_color2 text-center">Meet New People</h4>
+                                                <h4 className="info-title icon_color2 ">Meet New People</h4>
                                                 <hr className="horizontal-line"/>
                                                 <p className="text-white">
                                                     Meet others in your neighborhood who may have similar interests
@@ -57,8 +57,8 @@ class Home extends React.Component {
                                             </div>
                                         </Col>
                                         <Col lg="3">
-                                            <div className="info">
-                                                <h4 className="info-title icon_color3 text-center">Earn Money</h4>
+                                            <div className="info enhance2">
+                                                <h4 className="info-title icon_color3 ">Earn Money</h4>
                                                 <hr className="horizontal-line"/>
                                                 <p className="text-white">
                                                     Lend your goods to others and receive a small commission without

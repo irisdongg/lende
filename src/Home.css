@@ -18,8 +18,9 @@
     z-index: -1; }
 .page-header .content-center {
     position: absolute;
-    top: 40%;
-    right: 30%;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
     color: #ffffff;
@@ -42,6 +43,10 @@
     position: relative;
     overflow: hidden; }
 
+.page-middle .enhance{
+    display: inline-block;
+}
+
 .text-dark {
     color: #2bffc6 !important; }
 .App-logo {
@@ -55,11 +60,10 @@
     text-align: left !important; }
 
 .info {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
-    padding: 0px 40px 0px;
-    float: left;
-    width: 50%;
+    padding: 2px 2px 2px;
+    top: 0%;
     position: relative;
 }
 
@@ -99,7 +103,6 @@
     padding: 100px 30px 30px;
     float: left;
     width: 50%;
-
 }
 
 .page-end {
@@ -116,3 +119,12 @@
     color: 0xffffff;
 }
 
+.enhance1{
+    float:left;
+    top: 100%;
+}
+
+.enhance2{
+    float:right;
+    margin-top: -128px;
+}
