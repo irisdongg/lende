@@ -20,7 +20,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: -1;
     transition: filter var(--transition-time), backdrop-filter var(--transition-time);
 }
 
@@ -57,7 +56,6 @@
 }
 
 .hover-card-demo {
-    margin: 5% 5% 5% 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -65,4 +63,5 @@
     align-content: center;
     width: auto;
     height: auto;
+    background-color: white;
 }

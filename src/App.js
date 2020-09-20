@@ -4,13 +4,14 @@ import NavBar from './NavBar.js';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import HoverCards from "./HoverCards";
 import Home from "./Home.js";
-import Home2 from "./Home2.js";
+import AboutUs from "./AboutUs.js"
 
 function App() {
   return (
     <main className="App">
         <Router>
             <NavBar/>
+            <Route path="/aboutus"  component={AboutUs}/>
             <Route path="/main"  component={Home}/>
             <Route path="/finditems" component={HoverCards} />
         </Router>

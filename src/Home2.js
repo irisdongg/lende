@@ -2,14 +2,6 @@ import React from "react";
 import "./Home2.css";
 
 import {
-    Button,
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    ListGroupItem,
-    ListGroup,
     Container,
     Row,
     Col

@@ -1,0 +1,15 @@
+.testimonial-image {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    padding: 2%;
+    width: 70%;
+    vertical-align: middle;
+    font-size: 20px;
+}
