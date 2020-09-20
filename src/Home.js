@@ -3,22 +3,29 @@ import "./Home.css";
 import lendelogo from './lendelogo.png';
 import "./App.css";
 import lendhands from './lendhands.jpg'
+import nearby from './nearby.jpg';
+import sports from './sports.jpg';
+import kitchen from './cooking.jpg';
+import tools from './tools.jpg';
+
 import {
     Container,
     Row,
     Col
 } from "reactstrap";
 
+import HoverCard from "./HoverCard";
+
 class Home extends React.Component {
             render() {
                 return (
+                    <>
                     <div>
                         <div className="page-header">
                             <div className="content-center">
                                 <h1 className="text-center">Do more. Meet more. Live more. Lende.</h1>
                             </div>
                         </div>
-                        <div>
                             <Container className="page-middle">
                                 <Row className="justify-content-center">
                                     <Col lg="12">
@@ -29,9 +36,7 @@ class Home extends React.Component {
                                                     <h4 className="info-title icon_color1 text-center">Do More</h4>
                                                     <hr className="horizontal-line"/>
                                                     <p className="info-text-color">
-                                                        Rent a bike. Rent a stand mixer. Do things you have not been able
-                                                        do before. Make things you have never made before. With easy
-                                                        access to equipment at affordable prices, the possibilities are
+                                                        With easy access to equipment at affordable prices, the possibilities are
                                                         endless.
                                                     </p>
                                                 </div>
@@ -40,23 +45,19 @@ class Home extends React.Component {
                                                 <div className="info">
                                                     <h4 className="info-title icon_color2 text-center">Meet New People</h4>
                                                     <hr className="horizontal-line"/>
-                                                    <p>
-                                                        Divide details about your product or agency work into
-                                                        parts. Write a few lines about each one. A paragraph
-                                                        describing feature will be a feature.
+                                                    <p className="info-meet-people-color">
+                                                        Meet others in your neighborhood who may have similar interests
+                                                        as you!
                                                     </p>
                                                 </div>
                                             </Col>
                                             <Col lg="3">
                                                 <div className="info">
-                                                    <div className="icon_color3">
-                                                    </div>
                                                     <h4 className="info-title icon_color3 text-center">Earn Money</h4>
                                                     <hr className="horizontal-line"/>
-                                                    <p>
-                                                        Divide details about your product or agency work into
-                                                        parts. Write a few lines about each one. A paragraph
-                                                        describing be enough.
+                                                    <p className="info-earn-color">
+                                                        Lend your goods to others and receive a small commission without
+                                                        doing anything!
                                                     </p>
                                                 </div>
                                             </Col>
@@ -64,42 +65,22 @@ class Home extends React.Component {
                                     </Col>
                                 </Row>
                             </Container>
-                            <Container>
+                            <Container className="page-end">
                                 <Row className="justify-content-center">
                                     <h1 className="text-center">Explore</h1>
                                     <Col>
                                         <Row className="grid-row justify-content-center">
-                                            <Col lg="2">
-                                                <div className="explore">
-                                                    <div className="explore_color1">
-                                                    </div>
-                                                    <h4 className="info-title icon_color1 text-center">Near Me</h4>
-                                                    <hr className="horizontal-line"/>
-                                                    <p>
-                                                        Divide details about your work into parts. Write a few
-                                                        lines about each one. A paragraph describing a feature
-                                                        will.
-                                                    </p>
-                                                </div>
-                                            </Col>
-                                            <Col lg="2">
-                                                <div className="explore">
-                                                    <h4 className="info-title icon_color2 text-center">Category</h4>
-                                                    <hr className="horizontal-line"/>
-                                                    <p>
-                                                        Divide details about your product or agency work into
-                                                        parts. Write a few lines about each one. A paragraph
-                                                        describing feature will be a feature.
-                                                    </p>
-                                                </div>
-                                            </Col>
+                                            <Col> <img src={nearby}/> </Col>
+                                            <Col> <img src={sports} /> </Col>
+                                            <Col> <img src={kitchen} /> </Col>
+                                            <Col> <img src={tools} /> </Col>
                                         </Row>
                                     </Col>
                                 </Row>
                             </Container>
                         </div>
                     </div>
-
+                </>
             );
     }
 }
