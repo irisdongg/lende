@@ -3,8 +3,17 @@
     max-width:50%;
     object-fit:cover;
 }
+.slideImg2{
+    max-height:25%;
+    max-width:25%;
+    object-fit:cover;
+}
+.slideImg3{
+    max-height:2%;
+    max-width:2%;
+}
 .product{
-    float:left;
+    align-self: auto;
 }
 
 .carousel{
@@ -21,8 +30,13 @@
 
 .productInfo{
     float: left;
+    padding-left: 140px;
+    width: 40%;
+    align-content: center;
 }
 
 .sellerInfo{
     float: right;
+    padding-right: 200px;
+
 }
