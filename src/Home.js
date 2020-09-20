@@ -1,8 +1,11 @@
 import React from "react";
 import "./Home.css";
 import "./App.css";
-import sports from './sports.jpg';
-import tools from './tools.jpg';
+import sports from './sports.png';
+import tools from './tools.png';
+import kitchen from './kitchen.png';
+import nearby from './nearby.png';
+import SquareTestimonial from './SquareTestimonial.js';
 
 import {
     Container,
@@ -14,6 +17,12 @@ import HoverCard from "./HoverCard";
 
 class Home extends React.Component {
             render() {
+                let pages = [
+                    {name:'Near By', text: 'Find cool items nearby', image: nearby, align: 'left'},
+                    {name: 'Sports', text: 'Find a wide variety of sports gear from bikes to skiis', image: sports, align: 'right'},
+                    {name:'Kitchen Appliances', text: 'Find kitchen appliances such as stand mixers', image: kitchen, align: 'left'},
+                    {name: 'Tools', text: 'Find different power tools to rent for your next DIY project', image: tools, align: 'right'},
+                ]
                 return (
                     <div>
                         <div className="page-header">
@@ -30,7 +39,7 @@ class Home extends React.Component {
                                             <div className="info">
                                                 <h4 className="info-title icon_color1 text-center">Do More</h4>
                                                 <hr className="horizontal-line"/>
-                                                <p className="info-text-color">
+                                                <p className="text-white">
                                                     With easy access to equipment at affordable prices, the
                                                     possibilities are
                                                     endless.
@@ -41,7 +50,7 @@ class Home extends React.Component {
                                             <div className="info">
                                                 <h4 className="info-title icon_color2 text-center">Meet New People</h4>
                                                 <hr className="horizontal-line"/>
-                                                <p className="info-meet-people-color">
+                                                <p className="text-white">
                                                     Meet others in your neighborhood who may have similar interests
                                                     as you!
                                                 </p>
@@ -51,7 +60,7 @@ class Home extends React.Component {
                                             <div className="info">
                                                 <h4 className="info-title icon_color3 text-center">Earn Money</h4>
                                                 <hr className="horizontal-line"/>
-                                                <p className="info-earn-color">
+                                                <p className="text-white">
                                                     Lend your goods to others and receive a small commission without
                                                     doing anything!
                                                 </p>
@@ -61,17 +70,12 @@ class Home extends React.Component {
                                 </Col>
                             </Row>
                         </Container>
-                        <Container className="page-end">
-                            <Row className="justify-content-center">
-                                <h1 className="text-center">Explore</h1>
-                                <Col>
-                                    <Row className="grid-row justify-content-center">
-                                        <Col> <img src={sports}/> </Col>
-                                        <Col> <img src={tools}/> </Col>
-                                    </Row>
-                                </Col>
-                            </Row>
-                        </Container>
+                            <center className = 'page-end'>
+                                <h1 className="text-center text-white">Explore</h1>
+                                {pages.map((items) =>
+                                    <SquareTestimonial align={items.align} name={items.name} text={items.text} image={items.image} size={{width: "650px", height: "150px"}}/>
+                                )}
+                            </center>
                     </div>
             );
     }
