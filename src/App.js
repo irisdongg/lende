@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import HoverCards from "./HoverCards";
 import Home from "./Home.js";
 import AboutUs from "./AboutUs.js";
-import Login from "./Login.js"
+import Login from "./Login.js";
 
 function App() {
   return (

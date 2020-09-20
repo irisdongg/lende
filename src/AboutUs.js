@@ -5,12 +5,11 @@ import './AboutUs.css'
 import logo from './lendelogoblack.png';
 import kenny from './kenny-chi.jpeg'
 import iris from './iris-dong.jpeg'
-import {Link} from "react-router-dom";
 
 function AboutUs(props) {
     let pages = [
-        {name:'Kenny', text: 'Hi everyone, my name is Kenny Chi and I\'m a second year CS student at UC Berkeley', image: kenny, align: 'left'},
-        {name: 'Iris', text: 'Hi everyone, my name is Iris Dong and I\'m a second year ECE student at Carnegie Mellon University', image: iris, align: 'right'},
+        {name:'Kenny', text: 'Hi everyone, my name is Kenny Chi and I\'m a second year CS student at UC Berkeley.', image: kenny, align: 'left'},
+        {name: 'Iris', text: 'Hi everyone, my name is Iris Dong and I\'m a second year ECE student at Carnegie Mellon University.', image: iris, align: 'right'},
     ]
     return (
 

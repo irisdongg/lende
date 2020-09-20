@@ -22,7 +22,7 @@ export default function HoverCard(props) {
         >
             <div style={{...backgroundImage, ...props.size}} className={classnames("background", {"blurred" : hover})}/>
             {<p className={classnames("center-text", {"fade-out" : !hover})}>{props.centerText}</p>}
-            {<p className={classnames("bottom-text", {"fade-out" : hover})}>{props.bottomText}</p>}
+            {<h2 className={classnames("bottom-text", {"fade-out" : hover})}>{props.bottomText}</h2>}
         </div>
     )
 
