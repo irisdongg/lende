@@ -25,7 +25,6 @@ function AboutUs(props) {
                 <Testimonial className = 'testimonial' align={items.align} name={items.name} text={items.text} image={items.image} size={{width: "1000px", height: "200px"}}/>
             )}
         </center>
-
     )
 
 }

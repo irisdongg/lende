@@ -13,7 +13,7 @@ function Navbar() {
         ]
     return (
         <div>
-            <Link to={'/main'} className='logo' key={'Momento'}>
+            <Link to={'/main'} className='logo' key={'Lende'}>
                 <img src={logo} className='logo' alt={'lende logo'} />
             </Link>
             <div className='navbar'>
