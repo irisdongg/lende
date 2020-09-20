@@ -25,17 +25,9 @@ function ProductPage(props) {
                     <img src={image3} className="slideImg" alt="slideImage"/>
                     <img src={image4} className="slideImg" alt="slideImage"/>
                 </AliceCarousel>
-
-                <Row className="carousel">
-                    <Col className="productInfo">
-                        <h1 className="product">Ocean + Kenny</h1>
-                        <br/>
-                        <h2 className="product">$15.00</h2>
-                    </Col>
-                    <Col className="sellerInfo">
-                        <h1 className="">Seller</h1>
-                    </Col>
-                </Row>
+                <h1 className="product">Ocean + Kenny</h1>
+                <h2 className="product">$15.00</h2>
+                <h1 className="">Seller</h1>s
             </div>
 
 </>

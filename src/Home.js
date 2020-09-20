@@ -13,8 +13,6 @@ import {
     Col
 } from "reactstrap";
 
-import HoverCard from "./HoverCard";
-
 class Home extends React.Component {
             render() {
                 let pages = [
@@ -26,7 +24,7 @@ class Home extends React.Component {
                 return (
                     <div>
                         <div className="page-header">
-                            <div className="content-center">
+                            <div className="text-center">
                                 <h1 className="text-center">Do more. Meet more. Live more. Lende.</h1>
                             </div>
                         </div>
@@ -46,7 +44,6 @@ class Home extends React.Component {
                                                 </p>
                                             </div>
                                         </Col>
-                                        <Col lg="3">
                                             <div className="info">
                                                 <h4 className="info-title icon_color2 text-center">Meet New People</h4>
                                                 <hr className="horizontal-line"/>
@@ -55,7 +52,6 @@ class Home extends React.Component {
                                                     as you!
                                                 </p>
                                             </div>
-                                        </Col>
                                         <Col lg="3">
                                             <div className="info">
                                                 <h4 className="info-title icon_color3 text-center">Earn Money</h4>

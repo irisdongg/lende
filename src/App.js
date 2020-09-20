@@ -7,6 +7,7 @@ import Home from "./Home.js";
 import AboutUs from "./AboutUs.js";
 import Login from "./Login.js";
 import Product from "./ProductPage";
+import SellPage from "./SellPage.js";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
             <Route path="/main"  component={Home}/>
             <Route path="/finditems" component={HoverCards} />
             <Route path="/login" component={Login} />
-            <Route path="/product" component={Product} />
+            <Route path="/item1" component={Product} />
+            <Route path="/sellitems" component={SellPage} />
         </Router>
     </main>
   );

@@ -1,14 +1,7 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import logo from './lendelogoblack.png';
 
 import './Login.css'
-
-import {
-    Container,
-    Row,
-    Col
-} from "reactstrap";
 
 function Login(props) {
     return (

@@ -3,9 +3,6 @@
     max-width:50%;
     object-fit:cover;
 }
-.product{
-    float:left;
-}
 
 .carousel{
     display:inline-block;
@@ -17,12 +14,4 @@
     color: #ffffff;
     position: relative;
     overflow: hidden;
-}
-
-.productInfo{
-    float: left;
-}
-
-.sellerInfo{
-    float: right;
 }
