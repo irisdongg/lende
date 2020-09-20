@@ -6,6 +6,7 @@ import HoverCards from "./HoverCards";
 import Home from "./Home.js";
 import AboutUs from "./AboutUs.js";
 import Login from "./Login.js";
+import Product from "./ProductPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/main"  component={Home}/>
             <Route path="/finditems" component={HoverCards} />
             <Route path="/login" component={Login} />
+            <Route path="/product" component={Product} />
         </Router>
     </main>
   );
