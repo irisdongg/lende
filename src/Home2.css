@@ -1,0 +1,30 @@
+.info {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 100px 40px 30px;
+    float: left;
+    width: 33.33%;}
+.info .icon {
+    color: #344675; }
+.info .icon > i {
+    font-size: 2.0625rem; }
+.info .info-title {
+    margin: 1.75rem 0 0.875rem; }
+.info p {
+    color: rgba(222, 222, 222, 0.8);
+    line-height: 24px; }
+
+.icon_color1{
+    color: deepskyblue;
+}
+
+.icon_color2{
+    color: darkmagenta;
+}
+
+.icon_color3{
+    color: yellowgreen;
+}
+
+.justify-content-center {
+    justify-content: center !important; }

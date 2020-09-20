@@ -1,0 +1,11 @@
+.aboutus {
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+}
+.logo-aboutus{
+    width: 15%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,24 @@
+.link {
+    --backgroundcolor: transparent;
+    display: inline-block;
+    background-color:var(--backgroundcolor);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid var(--backgroundcolor);
+    box-sizing: border-box;
+    vertical-align: center;
+    height: var(--height);
+    font-weight: bold;
+}
+.logo {
+    background-color:transparent;
+    width: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.link:hover {
+    border-bottom: 3px solid white;
+}
