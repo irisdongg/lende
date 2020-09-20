@@ -11,28 +11,6 @@ function Navbar() {
         {url:'/sellitems', name: 'Sell Items'},
         {url:'/login', name: 'Sign Up/Log In'}
         ]
-    let data = [
-        {
-            key: 'j',
-            value: 'John Doe',
-        },
-        {
-            key: 'j',
-            value: 'Jane Doe',
-        },
-        {
-            key: 'm',
-            value: 'Mary Phillips',
-        },
-        {
-            key: 'r',
-            value: 'Robert',
-        },
-        {
-            key: 'k',
-            value: 'Karius',
-        },
-    ]
     return (
         <div>
             <Link to={'/main'} className='logo' key={'Momento'}>

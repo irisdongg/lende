@@ -12,9 +12,15 @@ function AboutUs(props) {
         {name: 'Iris', text: 'Hi everyone, my name is Iris Dong and I\'m a second year ECE student at Carnegie Mellon University.', image: iris, align: 'right'},
     ]
     return (
-
         <center className = 'aboutus'>
             <img src={logo} className='logo-aboutus' alt={'lende logo'} />
+            <h2 style={{ width: '1000px' }}>
+                Lende is a lend-and-borrow website that allows users to rent appliances from their surrounding neighborhood, raising awareness for resourcefulness, ultimately fostering a more connected community.
+            </h2>
+                <hr style={{ width: '1000px' }} className="solid"/>
+            <h1 style={{ width: '1000px' }}>
+                Creators
+            </h1>
             {pages.map((items) =>
                 <Testimonial className = 'testimonial' align={items.align} name={items.name} text={items.text} image={items.image} size={{width: "1000px", height: "200px"}}/>
             )}

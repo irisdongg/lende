@@ -26,11 +26,11 @@ function Login(props) {
                 <input type="password" data-test="password"/>
                 <br/>
                 <br/>
-                <div className="buttons" >
-                    <button className='button1'>
+                <div className="buttonss" >
+                    <button className='button1-login'>
                         Login
                     </button>
-                    <button className='button1'>
+                    <button className='button1-login'>
                         Sign Up
                     </button>
                     </div>

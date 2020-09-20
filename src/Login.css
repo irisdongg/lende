@@ -1,6 +1,6 @@
 .Login {
     background: url("gradient2.png") no-repeat;
-    background-size: cover;;
+    background-size: cover;
     min-height: 100vh;
     max-height: 1000px;
     color: black;
@@ -18,12 +18,8 @@
     background-color: #ffffff;
     width: 300px;
 }
-.buttons{
-    display: inline-block;
-    padding: 10px;
-}
 
-.button1 {
+.button1-login {
     border: 0.5px solid black;
     color: black;
     padding: 10px;
@@ -33,7 +29,7 @@
     border-radius: 10%;
     height: 35px;
 }
-.button1:hover {
+.button1-login:hover {
     color: white;
     background-color: #000000;
 }
